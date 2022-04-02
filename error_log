@@ -461,3 +461,23 @@ Stack trace:
 #5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
 #6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
 #7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 17:13:22 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 17:13:54 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58

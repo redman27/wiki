@@ -30,7 +30,7 @@ $wgMetaNamespace = "WikiPedia_2.0";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://wiki.otpotpotp.of.by";
+$wgServer = "http://wiki.k8s-13.sa";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
