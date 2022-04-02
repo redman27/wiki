@@ -1,0 +1,463 @@
+[02-Apr-2022 15:08:11 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:08:15 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:08:16 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:08:17 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:09:45 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:10:55 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:11:46 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']' in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:11:46 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']' in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:12:07 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']' in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:12:08 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']' in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:12:08 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']' in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:12:08 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']' in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:12:52 Europe/Minsk] PHP Parse error:  syntax error, unexpected ']' in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:13:01 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 57
+[02-Apr-2022 15:13:01 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 58
+[02-Apr-2022 15:13:01 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:13:01 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 57
+[02-Apr-2022 15:13:01 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 58
+[02-Apr-2022 15:13:01 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 57
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 58
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 57
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 58
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 57
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 58
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 57
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 58
+[02-Apr-2022 15:13:02 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:14:04 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:14:09 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:14:10 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:14:10 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:14:10 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:14:10 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:15:51 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:15:51 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:15:52 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:15:52 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:15:52 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:15:52 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:15:52 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:31 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:31 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:32 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:32 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:32 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:32 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:32 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:32 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:16:33 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:18:27 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:18:27 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:18:58 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 57
+[02-Apr-2022 15:18:58 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:19:56 Europe/Minsk] PHP Parse error:  syntax error, unexpected end of file in Command line code on line 1
+[02-Apr-2022 15:20:00 Europe/Minsk] PHP Parse error:  syntax error, unexpected end of file in Command line code on line 1
+[02-Apr-2022 15:21:38 Europe/Minsk] PHP Warning:  Use of undefined constant otpotpot_wiki - assumed 'otpotpot_wiki' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 57
+[02-Apr-2022 15:21:38 Europe/Minsk] PHP Warning:  Use of undefined constant Hw0mB2aKT - assumed 'Hw0mB2aKT' (this will throw an Error in a future version of PHP) in /home/otpotpot/wiki.otpotpotp.of.by/LocalSettings.php on line 59
+[02-Apr-2022 15:23:00 Europe/Minsk] PHP Parse error:  syntax error, unexpected end of file in Command line code on line 1
+[02-Apr-2022 15:24:31 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:31:18 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:31:19 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:31:19 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:31:19 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:31:19 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:31:20 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:31:20 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:31:20 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:33:35 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:33:36 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:33:36 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:33:37 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
+[02-Apr-2022 15:33:52 Europe/Minsk] PHP Fatal error:  Uncaught InvalidArgumentException: Database must be null or a non-empty string. in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php:58
+Stack trace:
+#0 /home/otpotpot/wiki.otpotpotp.of.by/includes/WikiMap.php(296): Wikimedia\Rdbms\DatabaseDomain->__construct(false, NULL, 'mwg8_')
+#1 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(124): WikiMap::getCurrentWikiDbDomain()
+#2 /home/otpotpot/wiki.otpotpotp.of.by/includes/objectcache/ObjectCache.php(304): ObjectCache::getDefaultKeyspace()
+#3 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(184): ObjectCache::makeLocalServerCache()
+#4 /home/otpotpot/wiki.otpotpotp.of.by/includes/registration/ExtensionRegistry.php(223): ExtensionRegistry->getCache()
+#5 /home/otpotpot/wiki.otpotpotp.of.by/includes/Setup.php(168): ExtensionRegistry->loadFromQueue()
+#6 /home/otpotpot/wiki.otpotpotp.of.by/includes/WebStart.php(90): require_once('/home/otpotpot/...')
+#7 /home/otpotpot/wiki.otp in /home/otpotpot/wiki.otpotpotp.of.by/includes/libs/rdbms/database/domain/DatabaseDomain.php on line 58
