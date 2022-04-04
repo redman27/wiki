@@ -1,0 +1,110 @@
+def stagestatus = [:] pipeline {
+  environment {
+    credential = 'redman27'
+    image_mysql = "redman27/wiki_mysql"
+    registry = "registry.hub.docker.com"
+  }
+  agent any
+  stages {
+    stage('Cloning Git') {
+      steps {
+        git url: 'https://github.com/redman27/wiki.git', branch: 'main', credentialsId: "jenkins_git"
+      }
+    }
+    
+    stage('Building image') {
+      steps{
+        script {
+          try {
+            dockerImageMysql = docker.build image_mysql + ":$BUILD_NUMBER" , "./mysql"
+            stagestatus.Docker_BUILD = "Success"
+          } catch (Exception err) {
+            stagestatus.Docker_BUILD = "Failure"
+            error "Dockerfile is broken, please check your Dockerfile"
+          //dockerImage = docker.build registry + ":$BUILD_NUMBER" , "--network host ."
+          }
+        }
+      }
+    }
+ 
+    stage('Push Image to DockerHub') {
+      steps{
+        script {
+            docker.withRegistry('', 'docker_hub') {
+            dockerImageMysql.push("${env.BUILD_ID}")
+          }
+        }
+      }
+    }
+    
+    stage('Remove Unused docker image') {
+      when { expression { stagestatus.find{ it.key == "Docker_BUILD" }?.value == "Success" } }
+      steps{
+        sh "docker rmi $image_mysql:${env.BUILD_ID}"
+      }
+    }
+    
+    stage('Testing YAML syntax') {
+        steps {
+          script {
+            catchError (buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+              try {
+                sh 'kubeval --strict --schema-location https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/ 
+/var/lib/jenkins/mysql-deployment.yaml > kubeval.log'
+                archiveArtifacts artifacts: 'kubeval.log'
+                stagestatus.Kubeval = "Success"
+              } catch (Exception err) {
+                stagestatus.Kubeval = "Failure"
+                error "Yaml syntax is incorrect"
+              }
+            }
+          }
+        }
+    }    
+    
+    stage('Deploy in cluster') {
+        when { expression { stagestatus.find{ it.key == "Kubeval" }?.value == "Success" } }
+        steps {
+          script {
+            catchError (buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+              try {
+                sh "kubectl scale --replicas=0 deployment/wiki-mysql --namespace default"
+                sh "kubectl delete -l name=wiki-mysql-pv-claim -f /var/lib/jenkins/mysql-deployment.yaml --namespace default"
+                sh "kubectl apply -l name=wiki-mysql-pv-claim -f /var/lib/jenkins/mysql-deployment.yaml --namespace default"
+                sh "kubectl set image deployment/wiki-mysql mysql=$image_mysql:${env.BUILD_ID} --namespace default"
+                sh "kubectl scale --replicas=1 deployment/wiki-mysql --namespace default"
+                stagestatus.Deploy = "Success"
+              } catch (Exception err) {
+                stagestatus.Deploy = "Failure"
+                error "Deploy failed"
+              }
+            }
+          }
+        }
+    }
+    
+    stage("Rollback if deployment failed") {
+      when { expression { stagestatus.find{ it.key == "Deploy" }?.value == "Failure" } }
+      steps {
+        script {
+          sh "kubectl scale --replicas=0 deployment/wiki-mysql --namespace default"
+          sh "kubectl delete -l name=wiki-mysql-pv-claim -f /var/lib/jenkins/mysql-deployment.yaml --namespace default"
+          sh "kubectl apply -l name=wiki-mysql-pv-claim -f /var/lib/jenkins/mysql-deployment.yaml --namespace default"
+          sh "kubectl rollout undo deployment/wiki-mysql --namespace default"
+          sh "kubectl scale --replicas=1 deployment/wiki-mysql --namespace default"
+        }
+      }
+    }  
+  }
+  post {
+            success {
+                slackSend (color: '#00FF00', message: "SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+                // mail to: 'pluhin@gmail.com',
+                // subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
+                // body: "Something is wrong with ${env.BUILD_URL}"
+            }
+            failure {
+                slackSend (color: '#FF0000', message: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+            }
+    }
+}

@@ -1,0 +1,93 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wiki-mysql
+  labels:
+    app: wiki
+spec:
+  ports:
+    - port: 3306
+  selector:
+    app: wiki
+    tier: mysql
+  clusterIP: None
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wiki-mysql
+  labels:
+    app: wiki
+spec:
+  selector:
+    matchLabels:
+      app: wiki
+      tier: mysql
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: wiki
+        tier: mysql
+    spec:
+      containers:
+      - image: image_variable
+        name: mysql
+        env:
+        #- name: MYSQL_DATABASE
+        #  valueFrom:
+        #    secretKeyRef:
+        #      name: mysql-secrets
+        #      key: MYSQL_DB_NAME
+        - name: MYSQL_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-secrets
+              key: MYSQL_ROOT_PASSWORD
+        ports:
+        - containerPort: 3306
+          name: mysql
+        volumeMounts:
+        - name: wiki-mysql-persistent-storage
+          mountPath: /var/lib/mysql
+      volumes:
+      - name: wiki-mysql-persistent-storage
+        persistentVolumeClaim:
+          claimName: wiki-mysql-pv-claim
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: nfs-pv-wiki-mysql
+  labels:
+    type: nfs
+    name: wiki-mysql-nfs
+spec:
+  capacity:
+    storage: 2Gi
+  accessModes:
+    - ReadWriteMany
+  persistentVolumeReclaimPolicy: Recycle
+  nfs:
+    path: /mnt/IT-Academy/nfs-data/sa2-19-22/Radaman/wiki_mysql
+    server: 192.168.37.105
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: wiki-mysql-pv-claim
+  labels:
+    app: wordpress
+    name: wiki-mysql-pv-claim
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 2Gi
+  selector:
+    matchLabels:
+      name: wiki-mysql-nfs
+      type: nfs
+
