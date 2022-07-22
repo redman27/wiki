@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export REPOPATH=/home/otpotpot/repositories/wiki
+    - export SITEPATH=/home/otpotpot/repo.otpotpotp.of.by
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
